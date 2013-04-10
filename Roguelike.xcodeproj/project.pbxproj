@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F98C18116FCEB6600A787A9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F98C18016FCEB6600A787A9 /* main.cpp */; };
+		1F98C1941700D25900A787A9 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F98C1931700D25900A787A9 /* Game.cpp */; };
+		1F98C19617060F0E00A787A9 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F98C19517060F0E00A787A9 /* Timer.cpp */; };
+		1F98C198170627ED00A787A9 /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F98C197170627ED00A787A9 /* Texture.cpp */; };
+		1F98C19A170628D100A787A9 /* TMConsole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F98C199170628D100A787A9 /* TMConsole.cpp */; };
+		1FF5D5C516E66C0F00CAA990 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF5D5C416E66C0F00CAA990 /* Cocoa.framework */; };
+		1FF5D5CF16E66C0F00CAA990 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FF5D5CD16E66C0F00CAA990 /* InfoPlist.strings */; };
+		1FF5D5D516E66C0F00CAA990 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1FF5D5D316E66C0F00CAA990 /* Credits.rtf */; };
+		1FF5D5E416E66DCF00CAA990 /* ImageTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FF5D5E316E66DCF00CAA990 /* ImageTest.cpp */; };
+		1FF5D5EA16E66EBE00CAA990 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF5D5E916E66EBE00CAA990 /* OpenGL.framework */; };
+		1FF5D5F116E6A0CF00CAA990 /* img_test.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF5D5F016E6A0CF00CAA990 /* img_test.png */; };
+		CB4D7FB4170F822F00EC06EA /* terminal.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4D7FB3170F822F00EC06EA /* terminal.png */; };
+		CBA87616170C0A9600A382D4 /* libglfw.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF5D5EB16E66F1900CAA990 /* libglfw.a */; };
+		CBA87618170C0AAC00A382D4 /* libSOIL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA87617170C0AAC00A382D4 /* libSOIL.a */; };
+		CBFA025517132F04005AFE26 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFA025417132F04005AFE26 /* libGLEW.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1FF5D5EF16E6A0C300CAA990 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F98C18016FCEB6600A787A9 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1F98C18716FCED1800A787A9 /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		1F98C18C16FCEE4800A787A9 /* GLHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLHeaders.h; sourceTree = "<group>"; };
+		1F98C18F16FCFFC600A787A9 /* TMConsole.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMConsole.h; sourceTree = "<group>"; };
+		1F98C19016FCFFF500A787A9 /* Timer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		1F98C19116FCFFFC00A787A9 /* Texture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Texture.h; sourceTree = "<group>"; };
+		1F98C1921700CFDB00A787A9 /* TMException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMException.h; sourceTree = "<group>"; };
+		1F98C1931700D25900A787A9 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		1F98C19517060F0E00A787A9 /* Timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		1F98C197170627ED00A787A9 /* Texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Texture.cpp; sourceTree = "<group>"; usesTabs = 0; };
+		1F98C199170628D100A787A9 /* TMConsole.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TMConsole.cpp; sourceTree = "<group>"; };
+		1FF5D5C116E66C0F00CAA990 /* Roguelike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roguelike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF5D5C416E66C0F00CAA990 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1FF5D5C716E66C0F00CAA990 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1FF5D5C816E66C0F00CAA990 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1FF5D5C916E66C0F00CAA990 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1FF5D5CC16E66C0F00CAA990 /* Roguelike-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Roguelike-Info.plist"; sourceTree = "<group>"; };
+		1FF5D5CE16E66C0F00CAA990 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1FF5D5D216E66C0F00CAA990 /* Roguelike-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Roguelike-Prefix.pch"; sourceTree = "<group>"; };
+		1FF5D5D416E66C0F00CAA990 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1FF5D5E316E66DCF00CAA990 /* ImageTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageTest.cpp; sourceTree = "<group>"; };
+		1FF5D5E916E66EBE00CAA990 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		1FF5D5EB16E66F1900CAA990 /* libglfw.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw.a; path = /usr/local/lib/libglfw.a; sourceTree = "<absolute>"; };
+		1FF5D5F016E6A0CF00CAA990 /* img_test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_test.png; path = Roguelike/img_test.png; sourceTree = "<group>"; };
+		CB4D7FB3170F822F00EC06EA /* terminal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = terminal.png; sourceTree = "<group>"; };
+		CBA87617170C0AAC00A382D4 /* libSOIL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSOIL.a; path = "../../Libraries/Simple OpenGL Image Library/lib/libSOIL.a"; sourceTree = "<group>"; };
+		CBFA025417132F04005AFE26 /* libGLEW.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGLEW.a; path = /usr/local/Cellar/glew/1.9.0/lib/libGLEW.a; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FF5D5BE16E66C0F00CAA990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFA025517132F04005AFE26 /* libGLEW.a in Frameworks */,
+				1FF5D5EA16E66EBE00CAA990 /* OpenGL.framework in Frameworks */,
+				1FF5D5C516E66C0F00CAA990 /* Cocoa.framework in Frameworks */,
+				CBA87616170C0A9600A382D4 /* libglfw.a in Frameworks */,
+				CBA87618170C0AAC00A382D4 /* libSOIL.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F98C17E16FCE9B500A787A9 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				1FF5D5E316E66DCF00CAA990 /* ImageTest.cpp */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+		1F98C18216FCEBCF00A787A9 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				1F98C18B16FCED9700A787A9 /* Headers */,
+				1F98C19517060F0E00A787A9 /* Timer.cpp */,
+				1F98C197170627ED00A787A9 /* Texture.cpp */,
+				1F98C199170628D100A787A9 /* TMConsole.cpp */,
+			);
+			name = Engine;
+			sourceTree = "<group>";
+		};
+		1F98C18B16FCED9700A787A9 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				1F98C19116FCFFFC00A787A9 /* Texture.h */,
+				1F98C18C16FCEE4800A787A9 /* GLHeaders.h */,
+				1F98C19016FCFFF500A787A9 /* Timer.h */,
+				1F98C18F16FCFFC600A787A9 /* TMConsole.h */,
+				1F98C1921700CFDB00A787A9 /* TMException.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		1FF5D5B816E66C0F00CAA990 = {
+			isa = PBXGroup;
+			children = (
+				CBA8764C170C107900A382D4 /* Resources */,
+				1FF5D5CA16E66C0F00CAA990 /* Roguelike */,
+				1FF5D5C316E66C0F00CAA990 /* Frameworks */,
+				1FF5D5C216E66C0F00CAA990 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FF5D5C216E66C0F00CAA990 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FF5D5C116E66C0F00CAA990 /* Roguelike.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FF5D5C316E66C0F00CAA990 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBFA025417132F04005AFE26 /* libGLEW.a */,
+				CBA87617170C0AAC00A382D4 /* libSOIL.a */,
+				1FF5D5EB16E66F1900CAA990 /* libglfw.a */,
+				1FF5D5E916E66EBE00CAA990 /* OpenGL.framework */,
+				1FF5D5C416E66C0F00CAA990 /* Cocoa.framework */,
+				1FF5D5C616E66C0F00CAA990 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FF5D5C616E66C0F00CAA990 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FF5D5C716E66C0F00CAA990 /* AppKit.framework */,
+				1FF5D5C816E66C0F00CAA990 /* CoreData.framework */,
+				1FF5D5C916E66C0F00CAA990 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1FF5D5CA16E66C0F00CAA990 /* Roguelike */ = {
+			isa = PBXGroup;
+			children = (
+				1F98C18716FCED1800A787A9 /* Game.h */,
+				1F98C1931700D25900A787A9 /* Game.cpp */,
+				1F98C18016FCEB6600A787A9 /* main.cpp */,
+				1F98C18216FCEBCF00A787A9 /* Engine */,
+				1FF5D5CB16E66C0F00CAA990 /* Supporting Files */,
+				1F98C17E16FCE9B500A787A9 /* Test */,
+			);
+			path = Roguelike;
+			sourceTree = "<group>";
+		};
+		1FF5D5CB16E66C0F00CAA990 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB4D7FB3170F822F00EC06EA /* terminal.png */,
+				1FF5D5CC16E66C0F00CAA990 /* Roguelike-Info.plist */,
+				1FF5D5CD16E66C0F00CAA990 /* InfoPlist.strings */,
+				1FF5D5D216E66C0F00CAA990 /* Roguelike-Prefix.pch */,
+				1FF5D5D316E66C0F00CAA990 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBA8764C170C107900A382D4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1FF5D5F016E6A0CF00CAA990 /* img_test.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FF5D5C016E66C0F00CAA990 /* Roguelike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF5D5DE16E66C0F00CAA990 /* Build configuration list for PBXNativeTarget "Roguelike" */;
+			buildPhases = (
+				1FF5D5BD16E66C0F00CAA990 /* Sources */,
+				1FF5D5BE16E66C0F00CAA990 /* Frameworks */,
+				1FF5D5BF16E66C0F00CAA990 /* Resources */,
+				1FF5D5EF16E6A0C300CAA990 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Roguelike;
+			productName = Roguelike;
+			productReference = 1FF5D5C116E66C0F00CAA990 /* Roguelike.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FF5D5B916E66C0F00CAA990 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Travis McMahon";
+			};
+			buildConfigurationList = 1FF5D5BC16E66C0F00CAA990 /* Build configuration list for PBXProject "Roguelike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1FF5D5B816E66C0F00CAA990;
+			productRefGroup = 1FF5D5C216E66C0F00CAA990 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FF5D5C016E66C0F00CAA990 /* Roguelike */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FF5D5BF16E66C0F00CAA990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF5D5CF16E66C0F00CAA990 /* InfoPlist.strings in Resources */,
+				1FF5D5D516E66C0F00CAA990 /* Credits.rtf in Resources */,
+				1FF5D5F116E6A0CF00CAA990 /* img_test.png in Resources */,
+				CB4D7FB4170F822F00EC06EA /* terminal.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FF5D5BD16E66C0F00CAA990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF5D5E416E66DCF00CAA990 /* ImageTest.cpp in Sources */,
+				1F98C18116FCEB6600A787A9 /* main.cpp in Sources */,
+				1F98C1941700D25900A787A9 /* Game.cpp in Sources */,
+				1F98C19617060F0E00A787A9 /* Timer.cpp in Sources */,
+				1F98C198170627ED00A787A9 /* Texture.cpp in Sources */,
+				1F98C19A170628D100A787A9 /* TMConsole.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FF5D5CD16E66C0F00CAA990 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FF5D5CE16E66C0F00CAA990 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1FF5D5D316E66C0F00CAA990 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FF5D5D416E66C0F00CAA990 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FF5D5DC16E66C0F00CAA990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1FF5D5DD16E66C0F00CAA990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1FF5D5DF16E66C0F00CAA990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Roguelike/Roguelike-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					OpenGL,
+					Image,
+					Library/src/,
+					OpenGL,
+					Image,
+					Library/src/,
+				);
+				INFOPLIST_FILE = "Roguelike/Roguelike-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Libraries/glfw-2.7.7/lib/cocoa\"",
+					"\"$(SRCROOT)/../../Libraries/Simple OpenGL Image Library/lib\"",
+					/usr/local/Cellar/glfw/2.7.7/lib,
+					/usr/local/Cellar/glew/1.9.0/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1FF5D5E016E66C0F00CAA990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Roguelike/Roguelike-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					OpenGL,
+					Image,
+					Library/src/,
+					OpenGL,
+					Image,
+					Library/src/,
+				);
+				INFOPLIST_FILE = "Roguelike/Roguelike-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Libraries/glfw-2.7.7/lib/cocoa\"",
+					"\"$(SRCROOT)/../../Libraries/Simple OpenGL Image Library/lib\"",
+					/usr/local/Cellar/glfw/2.7.7/lib,
+					/usr/local/Cellar/glew/1.9.0/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FF5D5BC16E66C0F00CAA990 /* Build configuration list for PBXProject "Roguelike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF5D5DC16E66C0F00CAA990 /* Debug */,
+				1FF5D5DD16E66C0F00CAA990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FF5D5DE16E66C0F00CAA990 /* Build configuration list for PBXNativeTarget "Roguelike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF5D5DF16E66C0F00CAA990 /* Debug */,
+				1FF5D5E016E66C0F00CAA990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FF5D5B916E66C0F00CAA990 /* Project object */;
+}
